@@ -35,7 +35,6 @@ body{
 .nav > ul > li{
   width: 300px;
   text-align: center;
-  color: orange;
 }
 .proj{
   display: flex;
@@ -65,7 +64,6 @@ body{
   flex-flow: column;
   align-items: center;
   text-align: center;
-  
 }
 .tex{
   width: 60%;
@@ -75,4 +73,13 @@ body{
   flex-flow: column;
   align-items: center;
   text-align: center;
+}
+a{
+  color: orange;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover{
+  color: black;
 }
